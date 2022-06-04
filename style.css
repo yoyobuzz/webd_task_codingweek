@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 
+    font-family: Roboto;
 }
 body{
     background-color: #0765db;
@@ -9,10 +9,9 @@ body{
 #basicAboutMe{
     margin: 2%;
     background-color: #ffe3d0;
-    height: fit-content;
+    height: 100%;
     width: 96%;
     position: absolute;
-    display: flex;
 }
 #hey{
     font-weight: bolder;
@@ -28,7 +27,16 @@ body{
     padding-bottom: 15px;
 }
 #img{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+div img{
     width: 200px;
     height: auto;
-
+    clip-path: circle();
+}
+.hell{
+    display: grid;
 }
